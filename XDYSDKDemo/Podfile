@@ -1,0 +1,16 @@
+platform:ios,'8.0'
+
+   target "XDYSDKDemo" do
+   pod 'YYKit'
+   pod 'AFNetworking'
+   pod 'Masonry'
+#   pod 'XDYSDK'
+  pod 'XDYSDK', :podspec => '/Users/lyy/Desktop/XDYSDK/Release/XDYSDKDemo/XDYSDK.podspec'
+
+#   target 'XDYSDK' do
+#       inherit! :search_paths
+#       # Pods for testing
+#   end
+   
+end
+

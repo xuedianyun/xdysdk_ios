@@ -1,0 +1,29 @@
+{
+  "name": "XDYSDK",
+  "version": "1.1.8",
+  "summary": "XDYSDK.",
+  "description": "xdysdk",
+  "homepage": "https://github.com/xuedianyun",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "liyanyan": "2913264282@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "/Users/lyy/Desktop/XDYSDK/Release/XDYSDKDemo",
+    "tag": "1.1.8"
+  },
+  "source_files": "**/*.{h,m}",
+  "vendored_libraries": "XDYSDK/libXDYSDK.a",
+  "requires_arc": true,
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}

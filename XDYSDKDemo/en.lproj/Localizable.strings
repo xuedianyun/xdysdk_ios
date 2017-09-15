@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  XDYSDKDemo
+
+  Created by lyy on 2017/5/16.
+  Copyright © 2017年 liyanyan. All rights reserved.
+*/
+"提示"="prompt";
+"退出"="Sign out";
+"课堂已结束"="Class is over";
+"确定"="confirm";
+"密码输入错误，请重新输入!"="Password input error, please input again!";
+"加载课堂失败，请重新进入!"="Failed to load class, please re-enter!";
+"  返回"="  return";
+"聊天"="Chat";
+"文档"="Document";
+"对"="true";
+"错"="false";
+"进入课堂"="Enter the classroom";
+"请输入用户名"="Enter one user name";
+"请输入密码"="Please input a password";
+"登录"="Sign in";
+"开启视频"="Open video";
+"开启语音"="Open audio";
+"确定要退出当前课堂吗?"="Are you sure you want to quit the current classroom?";
+"您目前使用的是移动数据网络"="You are currently using mobile data network";
+"您的设备网络断开状态，请重新进入"="Disconnect your device network status, please re-enter";
+"网络已经断开"="Network has been disconnected";
+"进入录制回放"="Enter the recording playback";
+"您确定要关闭回放吗？"="Are you sure you want to close the playback?";
+"取消"="cancel";
+"进入"="enter";

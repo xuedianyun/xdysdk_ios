@@ -1,0 +1,16 @@
+//
+//  XDYPrefixHeader.pch
+//  XDYSDKDemo
+//
+//  Created by lyy on 2017/9/12.
+//  Copyright © 2017年 liyanyan. All rights reserved.
+//
+
+#ifndef XDYPrefixHeader_pch
+#define XDYPrefixHeader_pch
+
+#import "XDYHeader.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* XDYPrefixHeader_pch */

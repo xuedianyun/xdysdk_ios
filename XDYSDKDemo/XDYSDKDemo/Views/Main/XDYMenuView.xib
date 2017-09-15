@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XDYMenuView">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSp-iB-8lN">
+                    <rect key="frame" x="0.0" y="0.0" width="71" height="66"/>
+                    <state key="normal" title="文档"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSa-0d-4qU">
+                    <rect key="frame" x="71" y="0.0" width="71" height="66"/>
+                    <state key="normal" title="聊天"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dy9-Yw-D8E">
+                    <rect key="frame" x="142" y="0.0" width="71" height="66"/>
+                    <state key="normal" title="成员"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xSp-iB-8lN" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1/5" id="0BW-xS-4lX"/>
+                <constraint firstItem="Dy9-Yw-D8E" firstAttribute="leading" secondItem="wSa-0d-4qU" secondAttribute="trailing" id="0Rl-D6-naP"/>
+                <constraint firstItem="wSa-0d-4qU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7UT-bu-d5b"/>
+                <constraint firstItem="Dy9-Yw-D8E" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CxN-RA-Wed"/>
+                <constraint firstItem="xSp-iB-8lN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SQ9-W6-SF0"/>
+                <constraint firstItem="wSa-0d-4qU" firstAttribute="leading" secondItem="xSp-iB-8lN" secondAttribute="trailing" id="U3X-YO-53b"/>
+                <constraint firstAttribute="bottom" secondItem="wSa-0d-4qU" secondAttribute="bottom" constant="1" id="Xf9-No-7Oe"/>
+                <constraint firstAttribute="bottom" secondItem="Dy9-Yw-D8E" secondAttribute="bottom" constant="1" id="dXK-Zn-xjC"/>
+                <constraint firstItem="wSa-0d-4qU" firstAttribute="width" secondItem="xSp-iB-8lN" secondAttribute="width" id="ebn-Jb-39Y"/>
+                <constraint firstAttribute="bottom" secondItem="xSp-iB-8lN" secondAttribute="bottom" constant="1" id="izw-uH-Lwd"/>
+                <constraint firstItem="Dy9-Yw-D8E" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1/5" id="jfH-h7-wCe"/>
+                <constraint firstItem="xSp-iB-8lN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wtz-A3-X2A"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="97" y="-430.5"/>
+        </view>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pQG-oj-9RT">
+            <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <state key="normal" title="Button"/>
+            <point key="canvasLocation" x="209" y="-312"/>
+        </button>
+    </objects>
+</document>
